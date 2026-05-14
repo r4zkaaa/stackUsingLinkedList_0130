@@ -79,4 +79,13 @@ int main()
     int choice = 0;
     int value;
 
-   
+    while (choice != 5)
+    {
+        cout << "1. push" << endl;
+        cout << "2. pop" << endl;
+        cout << "3. peek" << endl;
+        cout << "4. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+       
