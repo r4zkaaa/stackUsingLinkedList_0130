@@ -101,4 +101,8 @@ int main()
                 stack.pop();
             }
             else
-         
+            {
+                cout << "stack is empty, cannot pop." << endl;
+            }
+            break;
+      
